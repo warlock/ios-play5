@@ -36,6 +36,17 @@ struct CardView: View {
                     .fontWeight(.black)
                     .foregroundColor(textColor)
                 
+                
+                
+                Text(subtitle)
+                    .font(.system(.body, design: .rounded))
+                    .foregroundColor(textColor)
+                    .lineLimit(1)
+                
+                Text(author.uppercased())
+                    .font(.system(size: 10, design: .rounded))
+                    .foregroundColor(.secondary)
+                
                 HStack {
                     Text(price)
                         .font(.system(.caption, design: .rounded))
@@ -46,15 +57,6 @@ struct CardView: View {
                         .foregroundColor(.secondary)
                         .strikethrough()
                 }
-                
-                Text(subtitle)
-                    .font(.system(.body, design: .rounded))
-                    .foregroundColor(textColor)
-                    .lineLimit(1)
-                
-                Text(author.uppercased())
-                    .font(.system(size: 10, design: .rounded))
-                    .foregroundColor(.secondary)
                 
                 
             }.padding(10)
