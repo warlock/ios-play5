@@ -94,6 +94,8 @@
 			dependencies = (
 			);
 			name = play5;
+			packageProductDependencies = (
+			);
 			productName = play5;
 			productReference = 72F2996D2437DD2400235A0A /* play5.app */;
 			productType = "com.apple.product-type.application";
@@ -122,6 +124,8 @@
 				Base,
 			);
 			mainGroup = 72F299642437DD2400235A0A;
+			packageReferences = (
+			);
 			productRefGroup = 72F2996E2437DD2400235A0A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
